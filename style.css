@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+*{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2cb3f3;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+.title{
+    display: flex;
+    /* background-color: violet; */
+    width: 80vw ;
+    height: 10vh;
+    margin-bottom: 5em;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    top: 4em;  
+}
+h1{
+    font-size: 1.9em;
+    justify-content: center;
+}
+p{
+    justify-content: center;
+    padding-top: 0.4em;
+}
+
+.draw-box{
+    position: relative;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 40em;
+    height: 30em;
+    border-radius:  10% 10% 0% 0%;
+}
+.face{
+    position: relative;
+    background-color: #FFE1C9;
+    width: 80%;
+    height: 80%;
+    border-radius: 50% 50% 50% 50%;
+}
+.left-eye{
+    position: relative;
+    background-color: black;
+    width: 3em;
+    height: 3em;
+    top: 80px;
+    left: 7em;
+    border-radius: 100%;
+}
+.right-eye{
+    position: relative;
+    background-color: black;
+    width: 3em;
+    height: 3em;
+    left: 18.5em;
+    top: 80px;
+    border-radius: 100%;
+}
+.form{
+    position: absolute;
+    width: 23em;
+    height: 2.5em;
+    bottom: 11em;
+    left: 7em;
+}
+.form2{
+    position: absolute;
+    width: 23em;
+    height: 2.5em;
+    bottom: 8.2em;
+    left: 7em;
+}
+.button{
+    background-color: #55A603;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 13em;
+    height: 4.37em;
+    top: 2em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+footer div p{
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    opacity: 0.58;
+    top: 0.5em;
+}
